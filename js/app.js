@@ -334,7 +334,7 @@ function copyText(text, btn) {
       btn.classList.add("copied");
       setTimeout(() => { btn.textContent = orig; btn.classList.remove("copied"); }, 2000);
     }
-    showToast("✅ 已複製到剪貼板！貼入 ChatGPT / Claude 即可使用。");
+    showToast("✅ 已複製到剪貼板！貼入 Gemini 即可使用。");
   };
 
   if (navigator.clipboard && window.isSecureContext) {
